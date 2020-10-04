@@ -1,5 +1,12 @@
 
-
+<p align="center">
+  <b>Get Public IP Address</b>
+  <p align="center">
+    <img src="https://img.shields.io/github/go-mod/go-version/xjh22222228/ip" />
+    <img src="https://img.shields.io/github/v/release/xjh22222228/ip" />
+    <img src="https://img.shields.io/github/license/xjh22222228/tomato-work" />
+  </p>
+</p>
 
 ## Install
 ```bash
@@ -10,9 +17,8 @@ $ go get github.com/xjh22222228/ip
 ```go
 package main
 import (
-
-"fmt"
-"github.com/xjh22222228/ip"
+    "fmt"
+    "github.com/xjh22222228/ip"
 )
 
 func main()  {
@@ -26,8 +32,10 @@ func main()  {
         fmt.Println(err)
     }
 
-    
+    // 98.207.254.136
     fmt.Println(ipv4)
+
+    // 2a00:1450:400f:80d::200e
     fmt.Println(ipv6)
 }
 ```
