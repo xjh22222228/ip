@@ -25,17 +25,18 @@ func main()  {
     ipv4, err := ip.V4()
     ipv6, err2 := ip.V6()
 
-    if err != nil {
-        fmt.Println(err)
-    }
-    if err2 != nil {
-        fmt.Println(err)
-    }
+	if err != nil {
+		fmt.Println( err)
+	} else {
+		// 98.207.254.136
+		fmt.Println(ipv4)
+	}
 
-    // 98.207.254.136
-    fmt.Println(ipv4)
-
-    // 2a00:1450:400f:80d::200e
-    fmt.Println(ipv6)
+	if err2 != nil {
+		fmt.Println( err2)
+	} else {
+		// 2a00:1450:400f:80d::200e
+		fmt.Println(ipv6)
+	}  
 }
 ```
