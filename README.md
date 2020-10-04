@@ -1,6 +1,13 @@
 
 <p align="center">
-  <b>Get Public IP Address</b>
+  <p align="center">
+    <img src="media/logo.png" width="200" />
+  </p>
+  
+  <p align="center">
+    <b>Get Public IP Address</b>
+  </p>
+  
   <p align="center">
     <img src="https://img.shields.io/github/go-mod/go-version/xjh22222228/ip" />
     <img src="https://img.shields.io/github/v/release/xjh22222228/ip" />
