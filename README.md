@@ -11,7 +11,7 @@
   <p align="center">
     <img src="https://img.shields.io/github/go-mod/go-version/xjh22222228/ip" />
     <img src="https://img.shields.io/github/v/release/xjh22222228/ip" />
-    <img src="https://img.shields.io/github/license/xjh22222228/tomato-work" />
+    <img src="https://img.shields.io/github/license/xjh22222228/ip" />
   </p>
 </p>
 
@@ -32,18 +32,22 @@ func main()  {
     ipv4, err := ip.V4()
     ipv6, err2 := ip.V6()
 
-	if err != nil {
-		fmt.Println( err)
-	} else {
-		// 98.207.254.136
-		fmt.Println(ipv4)
-	}
+    if err != nil {
+        fmt.Println( err)
+    } else {
+        // 98.207.254.136
+        fmt.Println(ipv4)
+    }
 
-	if err2 != nil {
-		fmt.Println( err2)
-	} else {
-		// 2a00:1450:400f:80d::200e
-		fmt.Println(ipv6)
-	}  
+    if err2 != nil {
+        fmt.Println( err2)
+    } else {
+        // 2a00:1450:400f:80d::200e
+        fmt.Println(ipv6)
+    }  
 }
 ```
+
+
+## LICENSE
+[LICENSE](./LICENSE)
